@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TDLib_Example' do
+  pod 'TDLib', :path => '../'
+
+  target 'TDLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
