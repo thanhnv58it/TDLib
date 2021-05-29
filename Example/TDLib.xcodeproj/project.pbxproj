@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		13C13D92095FC261987BA111 /* Pods-TDLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-TDLib_Example/Pods-TDLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		21417B91030C087703746CE7 /* Pods-TDLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-TDLib_Tests/Pods-TDLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3EAB68AA0AAD06254C4FC697 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3EAB68AA0AAD06254C4FC697 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		52544597872619BD06933635 /* Pods-TDLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLib_Example.release.xcconfig"; path = "Target Support Files/Pods-TDLib_Example/Pods-TDLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E4A282335F98EB5A19F65A9 /* Pods_TDLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F78FCA937A979C1B38D10AE /* Pods_TDLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* TDLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A52B1995488F683A9FBD1B0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A52B1995488F683A9FBD1B0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD59F593F5663AAB89C37AF1 /* Pods-TDLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TDLib_Tests/Pods-TDLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE7052C4019B607BE1402DEB /* TDLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TDLib.podspec; path = ../TDLib.podspec; sourceTree = "<group>"; };
+		DE7052C4019B607BE1402DEB /* TDLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TDLib.podspec; path = ../TDLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				CD59F593F5663AAB89C37AF1 /* Pods-TDLib_Tests.debug.xcconfig */,
 				21417B91030C087703746CE7 /* Pods-TDLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
